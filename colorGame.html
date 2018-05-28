@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Color Game</title>
+	<link rel="icon" href="img//icon.png">
+	<link rel="stylesheet" type="text/css" href="css//colorGame.css">
+</head>
+<body>
+	<h1 class="rgbDisplay" id="title">
+		The coolest
+		<br>
+		<span id="colorDisplay">RGB</span>
+		<br>
+		Color Game
+	</h1>
+
+	<div class="singlePlayer">
+		<h2 class="chancesDisplay"><span id="name">Your name</span>: <span id="health">1</span><span id="health">2</span><span id="health">3</span></h2>
+		<h2 class="scoreDisplay">Score: <span id="score">points</span></h2>
+	</div>
+
+	<div class="multiPlayer">
+		<h2 class="turn">It's your turn <span id="playerTurn">Your Turn</span></h2>
+		<h2 class="player1"><span id="name1">Your name</span>: <span id="health1">1</span><span id="health1">2</span><span id="health1">3</span><br>Score: <span id="scoreP1">0</span></span></h2>
+		<h2 class="player2"><span id="name2">Your name</span>: <span id="health2">1</span><span id="health2">2</span><span id="health2">3</span><br><span id="y">Score: <span id="scoreP2">0</span></span></h2>
+		
+	</div> 
+
+	<div id="container">
+		<div class="square" id="button"></div>
+		<div class="square" id="button"></div>
+		<div class="square" id="button"></div>
+		<div class="square" id="button"></div>
+		<div class="square" id="button"></div>
+		<div class="square" id="button"></div>	
+		<div class="square" id="button"></div>
+		<div class="square" id="button"></div>
+		<div class="square" id="button"></div>	
+	</div>
+
+	<div id="single_player">
+		<div id="container2">
+			<h1 id="game_over"><span id="letter">G</span><span id="letter">A</span><span id="letter">M</span><span id="letter">E</span> <span id="letter">O</span><span id="letter">V</span><span id="letter">E</span><span id="letter">R</span><span id="letter">!</span></h1>
+			<h2 id="finalScore"><span id="name_player">Name</span><span id="points_player">Score</span> points</h2>
+		</div>
+		<div class="container3">
+			<button class="playAgain" id="btnFx">Play Again</button>
+			<button class="menu1" id="btnFx">Menu</button>
+		</div>
+	</div>
+
+	<div id="multi_player">
+		<div id="container2">
+			<h1 id="game_over"><span id="letter2">G</span><span id="letter2">A</span><span id="letter2">M</span><span id="letter2">E</span> <span id="letter2">O</span><span id="letter2">V</span><span id="letter2">E</span><span id="letter2">R</span><span id="letter2">!</span></h1>
+			<h2 id="finalScore"><span id="name_player1">Name</span><span id="points_player1">Score</span> points</h2>
+			<h2 id="finalScore"><span id="name_player2">Name</span><span id="points_player2">Score</span> points</h2>
+		</div>
+		<div class="container3">
+			<button class="playAgain2" id="btnFx">Play Again</button>
+			<button class="menu2" id="btnFx">Menu</button>
+		</div>
+	</div>
+
+<script type="text/javascript" src="js//colorGame.js"></script>
+</body>
+</html>

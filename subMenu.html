@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The color game</title>
+    <link rel="icon" href="img//icon.png">
+    <link rel="stylesheet" type="text/css" href="css//subMenu.css">
+</head>
+<body>
+<h1 class="rgbColors" id="title">
+    The coolest
+    <br>
+    <span id="colorDisplay">RGB guessing</span>
+    <br>
+    Color Game
+</h1>
+<div class="strip">
+    <h2 id="name">Level</h2>
+</div>
+
+    <div id="single" style="margin-left: 32%; margin-top: 5%;">
+       <form method="get" action="colorGame.html">
+            <span id="text">Name:</span><input type="text" name=" ">
+            <br>
+            <button type="submit" id="btnFx" value="Easy" name="singlePlay">Easy</button>
+            <button type="submit" id="btnFx" value="Normal" name="singlePlay">Normal</button>
+            <button type="submit" id="btnFx" value="Hard" name="singlePlay">Hard</button>
+        </form>
+    </div>
+
+    <div id="multi" style="margin-left: 32%; margin-top: 5%;">
+       <form method="get" action="colorGame.html">
+            <span id="text">Name:</span><input type="text" placeholder="Player 1" name=" ">
+            <br>
+            <span id="text">Name:</span><input type="text" placeholder="Player 2" name=" ">
+            <br>
+            <button type="submit" id="btnFx" value="Easy" name="multiplayer">Easy</button>
+            <button type="submit" id="btnFx" value="Normal" name="multiplayer">Normal</button>
+            <button type="submit" id="btnFx" value="Hard" name="multiplayer">Hard</button>
+        </form>
+    </div>
+
+
+<script type="text/javascript" src="js//subMenu.js"></script>
+</body>
+</html>
